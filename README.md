@@ -1,2 +1,2 @@
 # V1.2
-Nelabai buvo aiški užduotis, dėl to nieko ir nėra...
+programa yra tokia pat kaip ir v1.1 versijoje tik yra pridėta klasėje copy konstruktorius, copy operatorius ir destruktorius.
