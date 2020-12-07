@@ -1,2 +1,2 @@
 # V1.2
-Nelabai buvo aiški užduotis, bet patobulinta studentas klasė, atlikta trijų taisyklė.
+Nelabai buvo aiški užduotis, dėl to nieko ir nėra...
