@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <string>
 #include <vector>
@@ -39,13 +38,45 @@ private:
 	float Vid;
 	float Med;
 public:
-	Studentas() {};
+	Studentas() {}
+
 	Studentas(string vard, string pav, int egz, vector<int> nd) {
 		Vard = vard;
 		Pav = pav;
 		Egz = egz;
 		Nd = nd;
 	};
+
+	//copy konstruktirius
+	Studentas(const Studentas& s) {
+		Vard = s.Vard;
+		Pav = s.Pav;
+		Egz = s.Egz;
+		Gp = s.Gp;
+		Nd = s.Nd;
+	}
+
+	//copy priskyrimo operatorius
+	Studentas& operator=(const Studentas& s) {
+		if (&s == this) return *this;
+		Vard = s.Vard;
+		Pav = s.Pav;
+		Egz = s.Egz;
+		Gp = s.Gp;
+		Nd = s.Nd;
+		return *this;
+	}
+
+	/*Studentas(Studentas&& s) :
+		vardas_{ s.vardas_ },
+		pavard_{ s.pavard_ },
+		egz_{ s.egz_ },
+		galut_{s.galut_},
+		nd_{ std::move(s.nd_) } {}
+	Studentas(const Studentas&) = default;*/
+
+	~Studentas() {}
+
 	void Vidurkis() {
 		float suma = accumulate(Nd.begin(), Nd.end(), 0);
 		Vid = suma / size(Nd);
