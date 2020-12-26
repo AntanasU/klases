@@ -1,2 +1,4 @@
-# V1.2
-programa yra tokia pat kaip ir [v1.1](https://github.com/AntanasU/klases/tree/v1.1) versijoje tik yra pridėta klasėje copy konstruktorius, copy operatorius ir destruktorius.
+# V1.5
+programos veikimas yra nepakitęs nuo [v1.1](https://github.com/AntanasU/klases/tree/v1.1), tačiau yra sukurta nauja bazinė klasė "zmogus" iš kurios yra išvedama klasė "studentas"  kuri paveldi vardą ir pavardę.
+## prblema:
+klasė "zmogus" nėra abstrakti klasė, tai yra, galima sukurti žmokaus tipo objektą
