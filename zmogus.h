@@ -32,4 +32,5 @@ protected: string Vard;
 		   string Pav;
 public:
 	zmogus(string vardas = "", string pavarde = "") : Vard{ vardas }, Pav{ pavarde } { }
+	~zmogus() {}
 };
