@@ -1,4 +1,5 @@
 # V1.1
+[atgal į master](https://github.com/AntanasU/klases)
 ## realizuota užduotis naudojant klasę
 Programa atlieka tą pačią užduotį dviem skirtingais būdais ir atlieka spartos analizę (skaičiuoja tam tikrų programos vietų atlikimo greitį).
 ## rezultatai
