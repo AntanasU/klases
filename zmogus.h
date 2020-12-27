@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include <string>
 #include <vector>
 #include<algorithm>
@@ -32,5 +32,10 @@ protected: string Vard;
 		   string Pav;
 public:
 	zmogus(string vardas = "", string pavarde = "") : Vard{ vardas }, Pav{ pavarde } { }
-	~zmogus() {}
+	~zmogus(){}
+
+	//kad būtų abstrakti klasė joje turi būti grynosios virtualios funkcijos
+	// (pure virtua functions) bet jos man neveikia
+	//virtual string getVard() = 0;
+	//virtual string getPav() = 0;
 };
