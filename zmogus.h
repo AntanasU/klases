@@ -30,12 +30,12 @@ using std::remove_copy_if;
 class zmogus {
 protected: string Vard;
 		   string Pav;
+		   zmogus(string vardas = "", string pavarde = "") : Vard{ vardas }, Pav{ pavarde } { }
 public:
-	zmogus(string vardas = "", string pavarde = "") : Vard{ vardas }, Pav{ pavarde } { }
-	~zmogus(){}
+	
 
 	//kad būtų abstrakti klasė joje turi būti grynosios virtualios funkcijos
 	// (pure virtua functions) bet jos man neveikia
-	//virtual string getVard() = 0;
-	//virtual string getPav() = 0;
+	virtual string getVard() = 0;
+	virtual string getPav() = 0;
 };

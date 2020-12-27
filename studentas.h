@@ -3,8 +3,6 @@
 class Studentas: public zmogus
 {
 private:
-	//string Vard;
-	//string Pav;
 	int  Egz;
 	vector<int>Nd;
 	float Gp;
@@ -64,25 +62,25 @@ public:
 		else
 			Gp = 0.4 * Vid + 0.6 * Egz;
 	}
-	float getVid() const{
+	float getVid() {
 		return Vid;
 	}
-	vector<int> getNd() const{
+	vector<int> getNd() {
 		return Nd;
 	}
-	float getGp() const{
+	float getGp() {
 		return Gp;
 	}
-	string getVard() const{
+	string getVard() {
 		return Vard;
 	}
-	string getPav() const{
+	string getPav() {
 		return Pav;
 	}
-	float getMed() const{
+	float getMed() {
 		return Med;
 	}
-	int getEgz() const{
+	int getEgz() {
 		return Egz;
 	}
 };
